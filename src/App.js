@@ -8,31 +8,15 @@ import Education from './Education';
 class App extends Component {
     render() {
       return (
-        <div className="App container">
-        
-        {/*   header */}
-        <Header />
-        {/*   end header */}
-        
-        
-        {/*   content */}
-        <div className="content">
-          
-          {/* profile */}
-          <Profile />
-          
-          {/* skills */}
-          <Skills />
-          
-          {/* work experience */}
-          <Work />
-          
-          {/* education */}
-          <Education />
-        </div>      
-        {/*   end content */}
-      </div> 
-      /* end container */
+        <div className="container">
+            <Header />
+            <div className="content">
+                <Profile />
+                <Skills />
+                <Work />
+                <Education />
+            </div>
+        </div> 
       )
     }
   }
