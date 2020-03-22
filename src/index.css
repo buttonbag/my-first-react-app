@@ -61,12 +61,12 @@
 .content :last-child .section-details {
   border-bottom: none;
 }
-.content .profile, .content .skills, .content .work, .content .education {
+.content .profile, .content .skills, .content .work, .content .edu {
   display: flex;
   justify-content: flex-start;
   border-bottom: 1px solid #e3e3e3;
 }
-.content .profile:last-child, .content .skills:last-child, .content .work:last-child, .content .education:last-child {
+.content .profile:last-child, .content .skills:last-child, .content .work:last-child, .content .edu:last-child {
   border-bottom: none;
 }
 .content .skills-list {
@@ -89,36 +89,36 @@
   padding: 15px;
   flex-basis: 80vw;
 }
-.content .work-card .work-header {
+.content .work-card .work-header, .content .edu-card .edu-header {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 85%;
 }
-.content .work-card .work-header div {
+.content .work-card .work-header div, .content .edu-card .edu-header div {
   /* .position, .name, .year  */
   display: flex;
   flex: 1 1 33%;
 }
-.content .work-card .work-header .name {
+.content .work-card .work-header .name, .content .edu-card .edu-header .name {
   justify-content: center;
 }
-.content .work-card .work-header :last-child {
+.content .work-card .work-header :last-child, .content .edu-card .edu-header :last-child {
   justify-content: flex-end;
 }
-.content .work-card .work-description {
+.content .work-card .work-description, .content .edu-card .edu-description {
   padding: 15px 0 50px;
 }
-.content .work-card:last-child .work-description {
+.content .work-card:last-child .work-description, .content .edu-card:last-child .edu-description {
   padding: 15px 0;
 }
-.content .education .section-details {
+.content .edu .section-details {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
 }
-.content .education .section-details strong {
+.content .edu .section-details strong {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 85%;
@@ -160,7 +160,7 @@
     font-size: 2rem;
   }
 
-  .content .profile, .content .skills, .content .work, .content .education {
+  .content .profile, .content .skills, .content .work, .content .edu {
     flex-wrap: wrap;
   }
   .content .section-title {
@@ -185,7 +185,10 @@
     line-height: 1.2;
   }
 
-  .content .work-card .work-description {
+  .content .work-card .work-description, .content .edu-card .edu-description {
     padding: 15px 0;
   }
 }
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
