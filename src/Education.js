@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 
-class Education extends Component {
-    render() {
-        return(
-            <div className="edu">
-                <div className="section-title">education</div>
-                <div className="section-details">
+const EducationList = () => {
+    return (
+        <div className="section-details">
                 
                     {/* edu1 */}
                     <div className="edu-card">
@@ -58,6 +55,15 @@ class Education extends Component {
                     </div>
                 
                 </div>
+    );
+}
+
+class Education extends Component {
+    render() {
+        return(
+            <div className="edu">
+                <div className="section-title">education</div>
+                    <EducationList />
           </div>
         );
     }
