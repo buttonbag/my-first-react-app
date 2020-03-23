@@ -69,8 +69,8 @@
 .content .profile:last-child, .content .skills:last-child, .content .work:last-child, .content .edu:last-child {
   border-bottom: none;
 }
-.content .skills-list {
-  column-count: 3;
+.content .superpowers {
+  column-count: 4;
   column-fill: balance-all;
   margin: 0;
   padding: 0 15px;
