@@ -1,31 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Header extends Component {
-    render() {
-        return(
-            <div className="header">
-          
-            {/* header name */}
-            <h1 className="name">Louie Camacho</h1>
-            
-            {/* end header name */}
-            
-            {/* contact info */}
-            <div className="contact">
-              <a href="http://www.iambuttonbag.com">IamButtonbag.com</a>
-              <span className="social">
-                <a href="https://github.com/buttonbag"><i className="fab fa-github"></i></a>
-                <a href="https://codepen.io/buttonbag"><i className="fab fa-codepen"></i></a>
-                <a href="https://www.linkedin.com/in/louiecamacho/"><i className="fab fa-linkedin"></i></a>
-                <a href="https://twitter.com/iambuttonbag"><i className="fab fa-twitter"></i></a>
-              </span>
-              <a href="mailto:louiecamacho@gmail.com">louieCamacho@gmail.com</a>
-              <span>773.952.0534</span>
-            </div>
-            {/* end contact info */}
-          </div>
-        );
-    }
+export class Header extends React.Component {
+	render() {
+		return (
+			<header>
+				<h1>Sup, {this.props.name}!</h1>
+				<h2>Sup, {this.props.name}!</h2>
+				<h3>Sup, {this.props.name}!</h3>
+				<h4>Sup, {this.props.name}!</h4>
+				<h5>Sup, {this.props.name}!</h5>
+				<h6>Sup, {this.props.name}!</h6>
+			</header>
+		);
+	}
 }
 
-export default Header;
+Header.defaultProps = { name: 'Default Name' };
