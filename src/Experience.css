@@ -1,0 +1,12 @@
+#experience {
+  border-top: 8px solid var(--base-color);
+}
+#experience h2 {
+  font-size: 2rem;
+}
+#experience section {
+  border-top: 1px solid var(--light-color);
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=Experience.css.map */
