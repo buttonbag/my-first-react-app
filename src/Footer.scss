@@ -1,0 +1,25 @@
+footer {
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+	display: flex;
+	justify-content: space-evenly;
+
+	section {
+		border-top: 8px solid var(--base-color);
+		margin: 0 1rem;
+		flex: 1 0 auto;
+
+		&:first-child {
+			margin-left: 0;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		ul {
+			list-style: none;
+		}
+	}
+}
